@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>e5693d6b46bc4ae6981e5ffb2c3feac7</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="10698556" class="cell markdown">
+<h1 id="-análisis-de-kpis">🏦 Análisis de KPIs</h1>
+<p>Este notebook analiza un dataset de 1000 transacciones bancarias
+realizadas el 17/01/2025 en un lapso de 10:00 a 11:00 am y muestra:</p>
+<ul>
+<li>Detección de Fraude</li>
+<li>Rendimiento de Red</li>
+<li>Patrones de Transacciones</li>
+<li>Segmentación de Clientes</li>
+</ul>
+</div>
+<div id="384f2d81" class="cell code" data-execution_count="145">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar el archivo</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;transaction_data.csv&quot;</span>, parse_dates<span class="op">=</span>[<span class="st">&quot;Timestamp&quot;</span>])</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.info())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 1000 entries, 0 to 999
+Data columns (total 14 columns):
+ #   Column                            Non-Null Count  Dtype         
+---  ------                            --------------  -----         
+ 0   Transaction ID                    1000 non-null   object        
+ 1   Sender Account ID                 1000 non-null   object        
+ 2   Receiver Account ID               1000 non-null   object        
+ 3   Transaction Amount                1000 non-null   float64       
+ 4   Transaction Type                  1000 non-null   object        
+ 5   Timestamp                         1000 non-null   datetime64[ns]
+ 6   Transaction Status                1000 non-null   object        
+ 7   Fraud Flag                        1000 non-null   bool          
+ 8   Geolocation (Latitude/Longitude)  1000 non-null   object        
+ 9   Device Used                       1000 non-null   object        
+ 10  Network Slice ID                  1000 non-null   object        
+ 11  Latency (ms)                      1000 non-null   int64         
+ 12  Slice Bandwidth (Mbps)            1000 non-null   int64         
+ 13  PIN Code                          1000 non-null   int64         
+dtypes: bool(1), datetime64[ns](1), float64(1), int64(3), object(8)
+memory usage: 102.7+ KB
+None
+</code></pre>
+</div>
+</div>
+<div id="d68ef8b2" class="cell code" data-execution_count="146">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.head())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>  Transaction ID Sender Account ID Receiver Account ID  Transaction Amount  \
+0  TXN9520068950          ACC14994            ACC16656              495.90   
+1  TXN9412011085          ACC58958            ACC32826              529.62   
+2  TXN4407425052          ACC56321            ACC92481              862.47   
+3  TXN2214150284          ACC48650            ACC76457             1129.88   
+4  TXN4247571145          ACC60921            ACC11419              933.24   
+
+  Transaction Type           Timestamp Transaction Status  Fraud Flag  \
+0          Deposit 2025-01-17 10:14:00             Failed        True   
+1       Withdrawal 2025-01-17 10:51:00            Success       False   
+2       Withdrawal 2025-01-17 10:50:00             Failed       False   
+3         Transfer 2025-01-17 10:56:00            Success        True   
+4          Deposit 2025-01-17 10:25:00            Success        True   
+
+  Geolocation (Latitude/Longitude) Device Used Network Slice ID  Latency (ms)  \
+0             34.0522 N, -74.006 W     Desktop           Slice3            10   
+1           35.6895 N, -118.2437 W      Mobile           Slice2            11   
+2              48.8566 N, 2.3522 W      Mobile           Slice1             4   
+3             34.0522 N, -74.006 W      Mobile           Slice3            10   
+4             55.7558 N, 37.6173 W      Mobile           Slice3            20   
+
+   Slice Bandwidth (Mbps)  PIN Code  
+0                     179      3075  
+1                      89      2369  
+2                      53      8039  
+3                     127      6374  
+4                     191      8375  
+</code></pre>
+</div>
+</div>
+<div id="3cf3e7b4" class="cell markdown">
+<h1 id="detección-de-fraude">Detección de Fraude</h1>
+</div>
+<div id="df03752b" class="cell code" data-execution_count="147">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Tasa de fraude</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>fraud_rate <span class="op">=</span> df[<span class="st">&#39;Fraud Flag&#39;</span>].mean() <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;💡 Tasa de fraude global: </span><span class="sc">{</span>fraud_rate<span class="sc">:.2f}</span><span class="ss">% (</span><span class="sc">{</span>df[<span class="st">&#39;Fraud Flag&#39;</span>]<span class="sc">.</span><span class="bu">sum</span>()<span class="sc">}</span><span class="ss"> casos)&quot;</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Fraude por tipo de transacción</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>fraud_by_type <span class="op">=</span> pd.crosstab(df[<span class="st">&#39;Transaction Type&#39;</span>], df[<span class="st">&#39;Fraud Flag&#39;</span>], normalize<span class="op">=</span><span class="st">&#39;index&#39;</span>) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">🔄 Fraude por tipo de transacción (%):&quot;</span>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(fraud_by_type.sort_values(by<span class="op">=</span>[<span class="va">True</span>], ascending<span class="op">=</span><span class="va">False</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>💡 Tasa de fraude global: 48.10% (481 casos)
+
+🔄 Fraude por tipo de transacción (%):
+Fraud Flag            False      True 
+Transaction Type                      
+Deposit           47.151899  52.848101
+Withdrawal        53.548387  46.451613
+Transfer          54.545455  45.454545
+</code></pre>
+</div>
+</div>
+<div id="e0ab9e30" class="cell code" data-execution_count="148">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> extract_coords(geo_str):</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    lat_part, lon_part <span class="op">=</span> geo_str.split(<span class="st">&#39;, &#39;</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    lat <span class="op">=</span> <span class="bu">float</span>(lat_part[:<span class="op">-</span><span class="dv">2</span>])  <span class="co"># Elimina el último espacio y letra</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    lon <span class="op">=</span> <span class="bu">float</span>(lon_part[:<span class="op">-</span><span class="dv">2</span>])  <span class="co"># Ejemplo: &quot;-74.006 W&quot; -&gt; -74.006</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> lat, lon</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Latitude&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Geolocation (Latitude/Longitude)&#39;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: extract_coords(x)[<span class="dv">0</span>])</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Longitude&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Geolocation (Latitude/Longitude)&#39;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: extract_coords(x)[<span class="dv">1</span>])</span></code></pre></div>
+</div>
+<div id="d2a83424" class="cell code" data-execution_count="149">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>lat_threshold <span class="op">=</span> (df[<span class="st">&#39;Latitude&#39;</span>].quantile(<span class="fl">0.01</span>), df[<span class="st">&#39;Latitude&#39;</span>].quantile(<span class="fl">0.99</span>))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>lon_threshold <span class="op">=</span> (df[<span class="st">&#39;Longitude&#39;</span>].quantile(<span class="fl">0.01</span>), df[<span class="st">&#39;Longitude&#39;</span>].quantile(<span class="fl">0.99</span>))</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>outliers <span class="op">=</span> df[</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">~</span>df[<span class="st">&#39;Latitude&#39;</span>].between(<span class="op">*</span>lat_threshold) <span class="op">|</span> </span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">~</span>df[<span class="st">&#39;Longitude&#39;</span>].between(<span class="op">*</span>lon_threshold)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">🚨 </span><span class="sc">{</span><span class="bu">len</span>(outliers)<span class="sc">}</span><span class="ss"> transacciones en ubicaciones extremas (potencial fraude)&quot;</span>)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(outliers[[<span class="st">&#39;Transaction Amount&#39;</span>, <span class="st">&#39;Fraud Flag&#39;</span>]].value_counts())</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>plt.scatter(</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    df[<span class="st">&#39;Longitude&#39;</span>], </span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    df[<span class="st">&#39;Latitude&#39;</span>], </span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    c<span class="op">=</span>df[<span class="st">&#39;Fraud Flag&#39;</span>].<span class="bu">map</span>({<span class="va">True</span>: <span class="st">&#39;red&#39;</span>, <span class="va">False</span>: <span class="st">&#39;blue&#39;</span>}),</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>    alpha<span class="op">=</span><span class="fl">0.5</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Mapa de Transacciones (Rojo = Fraude)&quot;</span>)</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Longitud&quot;</span>)</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Latitud&quot;</span>)</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+🚨 0 transacciones en ubicaciones extremas (potencial fraude)
+Series([], Name: count, dtype: int64)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_3c75524658a94f248b062550c2196ba4/5786d71fbd2eb9dc5ce90636cbabcf389d9a16bb.png" /></p>
+</div>
+</div>
+<div id="69913e02" class="cell code" data-execution_count="150">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">📱 Dispositivos asociados a fraude:&quot;</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.groupby(<span class="st">&#39;Device Used&#39;</span>)[<span class="st">&#39;Fraud Flag&#39;</span>].mean().sort_values(ascending<span class="op">=</span><span class="va">False</span>))</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">🌐 Slices de red con mayor fraude:&quot;</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.groupby(<span class="st">&#39;Network Slice ID&#39;</span>)[<span class="st">&#39;Fraud Flag&#39;</span>].mean().sort_values(ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">3</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+📱 Dispositivos asociados a fraude:
+Device Used
+Mobile     0.512476
+Desktop    0.446764
+Name: Fraud Flag, dtype: float64
+
+🌐 Slices de red con mayor fraude:
+Network Slice ID
+Slice2    0.508824
+Slice3    0.486647
+Slice1    0.445820
+Name: Fraud Flag, dtype: float64
+</code></pre>
+</div>
+</div>
+<div id="e5d075fc" class="cell markdown">
+<h1 id="rendimiento-de-red">Rendimiento de Red</h1>
+</div>
+<div id="41e7e075" class="cell code" data-execution_count="151">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Transaction Status&#39;</span>, y<span class="op">=</span><span class="st">&#39;Latency (ms)&#39;</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Latencia por Estado de Transacción&quot;</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Latencia en slices de red</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">⏳ Latencia promedio por Network Slice ID:&quot;</span>)</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.groupby(<span class="st">&#39;Network Slice ID&#39;</span>)[<span class="st">&#39;Latency (ms)&#39;</span>].describe().sort_values(by<span class="op">=</span><span class="st">&#39;mean&#39;</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_3c75524658a94f248b062550c2196ba4/4155421376f670bc010ff6c57fdb0b485bad6f4b.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>
+⏳ Latencia promedio por Network Slice ID:
+                  count       mean       std  min  25%   50%   75%   max
+Network Slice ID                                                        
+Slice2            340.0  11.300000  5.079138  3.0  7.0  11.0  15.0  20.0
+Slice3            337.0  11.860534  5.029214  3.0  8.0  12.0  16.0  20.0
+Slice1            323.0  11.916409  5.283498  3.0  7.0  12.0  17.0  20.0
+</code></pre>
+</div>
+</div>
+<div id="f3d1a6e7" class="cell code" data-execution_count="152">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>failed_trans <span class="op">=</span> df[df[<span class="st">&#39;Transaction Status&#39;</span>] <span class="op">==</span> <span class="st">&#39;Failed&#39;</span>]</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">🔴 </span><span class="sc">{</span><span class="bu">len</span>(failed_trans)<span class="sc">}</span><span class="ss"> transacciones fallidas (</span><span class="sc">{</span>(<span class="bu">len</span>(failed_trans)<span class="op">/</span><span class="dv">1000</span>)<span class="op">*</span><span class="dv">100</span><span class="sc">:.1f}</span><span class="ss">%)&quot;</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Slice Bandwidth (Mbps)&#39;</span>, y<span class="op">=</span><span class="st">&#39;Latency (ms)&#39;</span>, hue<span class="op">=</span><span class="st">&#39;Transaction Status&#39;</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Relación Ancho de Banda vs. Latencia&quot;</span>)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+🔴 513 transacciones fallidas (51.3%)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_3c75524658a94f248b062550c2196ba4/0d5376e2b598d99786b9be5d2234232149f477dc.png" /></p>
+</div>
+</div>
+<div id="10eb31e3" class="cell markdown">
+<h1 id="patrones-de-transacciones">Patrones de Transacciones</h1>
+</div>
+<div id="5df0f998" class="cell code" data-execution_count="153">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Minute&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Timestamp&#39;</span>].dt.minute</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>trans_per_min <span class="op">=</span> df.groupby(<span class="st">&#39;Minute&#39;</span>)[<span class="st">&#39;Transaction ID&#39;</span>].count()</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">4</span>))</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>trans_per_min.plot(marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Transacciones por Minuto (10:00-11:00 AM)&quot;</span>)</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Número de transacciones&quot;</span>)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_3c75524658a94f248b062550c2196ba4/9c035e644fb7b3876578822f34b089c00c5ddc3d.png" /></p>
+</div>
+</div>
+<div id="093357ee" class="cell code" data-execution_count="154">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Top 5 montos más altos</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">💰 Top 5 transacciones con montos más altos:&quot;</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.nlargest(<span class="dv">5</span>, <span class="st">&#39;Transaction Amount&#39;</span>)[[<span class="st">&#39;Transaction Type&#39;</span>, <span class="st">&#39;Transaction Amount&#39;</span>, <span class="st">&#39;Fraud Flag&#39;</span>]])</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Distribución de montos por fraude</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Fraud Flag&#39;</span>, y<span class="op">=</span><span class="st">&#39;Transaction Amount&#39;</span>)</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Distribución de Montos por Estado de Fraude&quot;</span>)</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+💰 Top 5 transacciones con montos más altos:
+    Transaction Type  Transaction Amount  Fraud Flag
+240         Transfer             1497.76        True
+78          Transfer             1495.01        True
+655          Deposit             1494.20        True
+514         Transfer             1494.03        True
+901         Transfer             1494.01       False
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_3c75524658a94f248b062550c2196ba4/355627b19ab5f777cec4ea9a891038a81e92cabb.png" /></p>
+</div>
+</div>
+<div id="5f2174d6" class="cell markdown">
+<h1 id="segmentación-de-clientes">Segmentación de Clientes</h1>
+</div>
+<div id="c74445bb" class="cell code" data-execution_count="155">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>top_senders <span class="op">=</span> df[<span class="st">&#39;Sender Account ID&#39;</span>].value_counts().head(<span class="dv">5</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>top_receivers <span class="op">=</span> df[<span class="st">&#39;Receiver Account ID&#39;</span>].value_counts().head(<span class="dv">5</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">🔝 Top 5 cuentas emisoras:&quot;</span>)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(top_senders)</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">🔝 Top 5 cuentas receptoras:&quot;</span>)</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(top_receivers)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+🔝 Top 5 cuentas emisoras:
+Sender Account ID
+ACC37810    2
+ACC82828    2
+ACC89865    2
+ACC75741    2
+ACC71245    2
+Name: count, dtype: int64
+
+🔝 Top 5 cuentas receptoras:
+Receiver Account ID
+ACC51253    2
+ACC17647    2
+ACC85405    2
+ACC76710    2
+ACC51744    2
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="dc4b867d" class="cell code" data-execution_count="156">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Parejas sender-receiver frecuentes</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>suspicious_pairs <span class="op">=</span> df.groupby([<span class="st">&#39;Sender Account ID&#39;</span>, <span class="st">&#39;Receiver Account ID&#39;</span>]).size().sort_values(ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">5</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">🤝 Parejas sender-receiver más frecuentes:&quot;</span>)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(suspicious_pairs)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+🤝 Parejas sender-receiver más frecuentes:
+Sender Account ID  Receiver Account ID
+ACC10043           ACC88019               1
+ACC69928           ACC15272               1
+ACC69257           ACC16905               1
+ACC69369           ACC27407               1
+ACC69574           ACC42196               1
+dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="ce7b2cb1" class="cell code" data-execution_count="157">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>df,</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="st">&#39;Transaction Type&#39;</span>,</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span><span class="st">&#39;Transaction Amount&#39;</span>,</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    palette<span class="op">=</span><span class="st">&#39;viridis&#39;</span>,</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>    showfliers<span class="op">=</span><span class="va">False</span>  <span class="co"># Oculta valores extremos para mejor visualización</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribución de Montos por Tipo de Transacción (Sin outliers)&#39;</span>)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Monto (USD)&#39;</span>)</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>plt.grid(axis<span class="op">=</span><span class="st">&#39;y&#39;</span>)</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\ldijo\AppData\Local\Temp\ipykernel_844\1988311634.py:2: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_3c75524658a94f248b062550c2196ba4/dcd182b34e18f189d52d41294162adf4d01bc0a1.png" /></p>
+</div>
+</div>
+<div id="8e37b252" class="cell code" data-execution_count="158">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>df,</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="st">&#39;Transaction Type&#39;</span>,</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span><span class="st">&#39;Transaction Amount&#39;</span>,</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    hue<span class="op">=</span><span class="st">&#39;Fraud Flag&#39;</span>,</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>    palette<span class="op">=</span>{<span class="va">True</span>: <span class="st">&#39;red&#39;</span>, <span class="va">False</span>: <span class="st">&#39;green&#39;</span>},</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>    showfliers<span class="op">=</span><span class="va">False</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Montos por Tipo de Transacción (Diferenciado por Fraude)&#39;</span>)</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&#39;Es Fraude&#39;</span>, loc<span class="op">=</span><span class="st">&#39;upper right&#39;</span>)</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Monto (USD)&#39;</span>)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>plt.grid(axis<span class="op">=</span><span class="st">&#39;y&#39;</span>)</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_3c75524658a94f248b062550c2196ba4/e3da2d2a75d782145fa7799896dae2729a5bfdbb.png" /></p>
+</div>
+</div>
+<div id="23b6ab0a" class="cell markdown">
+<p>casi la mitad de operaciones se marcaron como fraude, los depositos
+fueron los que más se consideraron como fraude, no hubo ubicaciones
+fuera del rango para considerarlo peligroso, ya que todos se realizaron
+en los mismos lugares,los dispositivos con mayor tendencia a fraude son
+los registrados en celular, la red 1 es la que menor fraude registra, la
+2 y 3 es donde se concentra más casos, entre más latencia se eleva muy
+ligero que pase la probabilidad de falla. la mitad de transacciones no
+se pudieron realizar, la reacion entre ancho de banda y latencia se
+mantuvo estable y no se observarion tendencias, donde se realizaron
+mayores transacciones fue entre los 20 y 30 min/ 50 a 60 min</p>
+</div>
+</body>
+</html>
